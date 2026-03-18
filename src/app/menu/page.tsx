@@ -24,8 +24,8 @@ export default function MenuPage() {
           name: "Mini Roti Meal",
           price: 89,
           originalPrice: 149,
-          description: "3 Roti, Paneer/Veg Gravy, Sookhi Sabji/Raita, Salad",
-          items: ["3 Fresh Rotis", "Paneer/Veg Gravy", "Sookhi Sabji", "Raita", "Salad"],
+          description: "4 Roti, Paneer/Veg Gravy, Sookhi Sabji/Raita, Salad",
+          items: ["4 Fresh Rotis", "Paneer/Veg Gravy", "Sookhi Sabji", "Raita", "Salad"],
           popular: false,
           rating: 4.5,
           type: "veg"
@@ -59,8 +59,8 @@ export default function MenuPage() {
           name: "Regular Veg Meal",
           price: 99,
           originalPrice: 159,
-          description: "3 Roti, Rice, Dal, Paneer/Veg Gravy, Salad",
-          items: ["3 Rotis", "Steamed Rice", "Dal", "Paneer/Veg Gravy", "Salad"],
+          description: "4 Roti, Rice, Dal, Paneer/Veg Gravy, Salad",
+          items: ["4 Rotis", "Steamed Rice", "Dal", "Paneer/Veg Gravy", "Salad"],
           popular: true,
           rating: 4.8,
           type: "veg"
@@ -69,8 +69,8 @@ export default function MenuPage() {
           name: "Regular Non Veg Meal",
           price: 109,
           originalPrice: 169,
-          description: "3 Roti, Rice, Dal, Egg/Chicken/Veg Gravy, Salad",
-          items: ["3 Rotis", "Steamed Rice", "Dal", "Egg/Chicken Gravy", "Salad"],
+          description: "4 Roti, Rice, Dal, Egg/Chicken/Veg Gravy, Salad",
+          items: ["4 Rotis", "Steamed Rice", "Dal", "Egg/Chicken Gravy", "Salad"],
           popular: true,
           rating: 4.7,
           type: "non-veg"
@@ -104,8 +104,8 @@ export default function MenuPage() {
           name: "Premium Veg Meal",
           price: 124,
           originalPrice: 179,
-          description: "3 Roti, Paneer/Veg Gravy, Sookhi Sabji/Raita, Salad, Steamed Rice/Jeera Rice, Dal, Raita/Sweets",
-          items: ["3 Rotis", "Paneer/Veg Gravy", "Sookhi Sabji", "Raita", "Salad", "Steamed Rice", "Dal", "Sweets"],
+          description: "4 Roti, Paneer/Veg Gravy, Sookhi Sabji/Raita, Salad, Steamed Rice/Jeera Rice, Dal, Raita/Sweets",
+          items: ["4 Rotis", "Paneer/Veg Gravy", "Sookhi Sabji", "Raita", "Salad", "Steamed Rice", "Dal", "Sweets"],
           popular: true,
           rating: 4.9,
           type: "veg"
@@ -114,8 +114,8 @@ export default function MenuPage() {
           name: "Premium Non Veg Meal",
           price: 129,
           originalPrice: 189,
-          description: "3 Roti, Egg/Chicken/Veg Gravy, Sookhi Sabji/Raita, Salad, Steamed Rice/Jeera Rice, Dal, Raita/Sweets",
-          items: ["3 Rotis", "Egg/Chicken Gravy", "Sookhi Sabji", "Raita", "Salad", "Steamed Rice", "Dal", "Sweets"],
+          description: "4 Roti, Egg/Chicken/Veg Gravy, Sookhi Sabji/Raita, Salad, Steamed Rice/Jeera Rice, Dal, Raita/Sweets",
+          items: ["4 Rotis", "Egg/Chicken Gravy", "Sookhi Sabji", "Raita", "Salad", "Steamed Rice", "Dal", "Sweets"],
           popular: true,
           rating: 4.8,
           type: "non-veg"
@@ -135,7 +135,7 @@ export default function MenuPage() {
   ];
 
   const today = new Date().getDay();
-  const todayMenu = weeklyMenu[today === 0 ? 6 : today - 1];
+  const todayMenu = weeklyMenu[today === 0 ? 6 : today - 1]; // Sunday=0, Monday=1, etc.
 
   return (
     <div className="min-h-screen bg-gray-50">
@@ -166,11 +166,11 @@ export default function MenuPage() {
       <section className="py-16">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
           <Tabs defaultValue="mini" className="w-full">
-            <TabsList className="grid w-full grid-cols-4 mb-12">
-              <TabsTrigger value="mini" className="text-lg">Mini Meals</TabsTrigger>
-              <TabsTrigger value="regular" className="text-lg">Regular Meals</TabsTrigger>
-              <TabsTrigger value="premium" className="text-lg">Premium Meals</TabsTrigger>
-              <TabsTrigger value="bulk" className="text-lg">Bulk Orders</TabsTrigger>
+            <TabsList className="grid w-full grid-cols-2 mb-12">
+              <TabsTrigger value="mini" className="text-sm md:text-lg">Mini Meals</TabsTrigger>
+              <TabsTrigger value="regular" className="text-sm md:text-lg">Regular Meals</TabsTrigger>
+              <TabsTrigger value="premium" className="text-sm md:text-lg">Premium Meals</TabsTrigger>
+              <TabsTrigger value="bulk" className="text-sm md:text-lg">Bulk Orders</TabsTrigger>
             </TabsList>
 
             {/* Mini Meals */}

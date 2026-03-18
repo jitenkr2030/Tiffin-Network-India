@@ -42,7 +42,7 @@ export default function BookTiffinPage() {
       id: "mini-roti",
       name: "Mini Roti Meal",
       price: 89,
-      description: "3 Roti, Paneer/Veg Gravy, Sookhi Sabji/Raita, Salad",
+      description: "4 Roti, Paneer/Veg Gravy, Sookhi Sabji/Raita, Salad",
       type: "veg"
     },
     {
@@ -63,14 +63,14 @@ export default function BookTiffinPage() {
       id: "regular-veg",
       name: "Regular Veg Meal",
       price: 99,
-      description: "3 Roti, Rice, Dal, Paneer/Veg Gravy, Salad",
+      description: "4 Roti, Rice, Dal, Paneer/Veg Gravy, Salad",
       type: "veg"
     },
     {
       id: "regular-nonveg",
       name: "Regular Non Veg Meal",
       price: 109,
-      description: "3 Roti, Rice, Dal, Egg/Chicken/Veg Gravy, Salad",
+      description: "4 Roti, Rice, Dal, Egg/Chicken/Veg Gravy, Salad",
       type: "non-veg"
     },
     {
@@ -91,14 +91,14 @@ export default function BookTiffinPage() {
       id: "premium-veg",
       name: "Premium Veg Meal",
       price: 124,
-      description: "3 Roti, Paneer/Veg Gravy, Sookhi Sabji/Raita, Salad, Steamed Rice/Jeera Rice, Dal, Raita/Sweets",
+      description: "4 Roti, Paneer/Veg Gravy, Sookhi Sabji/Raita, Salad, Steamed Rice/Jeera Rice, Dal, Raita/Sweets",
       type: "veg"
     },
     {
       id: "premium-nonveg",
       name: "Premium Non Veg Meal",
       price: 129,
-      description: "3 Roti, Egg/Chicken/Veg Gravy, Sookhi Sabji/Raita, Salad, Steamed Rice/Jeera Rice, Dal, Raita/Sweets",
+      description: "4 Roti, Egg/Chicken/Veg Gravy, Sookhi Sabji/Raita, Salad, Steamed Rice/Jeera Rice, Dal, Raita/Sweets",
       type: "non-veg"
     }
   ];

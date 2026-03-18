@@ -194,7 +194,7 @@ export default function Home() {
                 <ul className="space-y-2 text-gray-600">
                   <li className="flex items-center gap-2">
                     <CheckCircle className="w-4 h-4 text-orange-500" />
-                    3 Rotis
+                    4 Rotis
                   </li>
                   <li className="flex items-center gap-2">
                     <CheckCircle className="w-4 h-4 text-orange-500" />
@@ -233,7 +233,7 @@ export default function Home() {
                 <ul className="space-y-2 text-gray-600">
                   <li className="flex items-center gap-2">
                     <CheckCircle className="w-4 h-4 text-purple-500" />
-                    3 Rotis
+                    4 Rotis
                   </li>
                   <li className="flex items-center gap-2">
                     <CheckCircle className="w-4 h-4 text-purple-500" />
