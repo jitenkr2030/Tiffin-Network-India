@@ -30,30 +30,76 @@ export default function BookTiffinPage() {
     specialInstructions: "",
   });
 
-  const tiffinOptions = [
+  const mealOptions = [
     {
-      id: "veg-lunch",
-      name: "Veg Lunch Tiffin",
-      price: 90,
-      description: "4 Chapati + Dal + Sabzi + Rice + Salad"
+      id: "mini-rice",
+      name: "Mini Rice Meal",
+      price: 89,
+      description: "Rice, Sookhi Sabji/Raita, Dal",
+      type: "veg"
     },
     {
-      id: "veg-dinner",
-      name: "Veg Dinner Tiffin",
-      price: 90,
-      description: "4 Chapati + Dal Tadka + Mixed Veg + Jeera Rice"
+      id: "mini-roti",
+      name: "Mini Roti Meal",
+      price: 89,
+      description: "3 Roti, Paneer/Veg Gravy, Sookhi Sabji/Raita, Salad",
+      type: "veg"
     },
     {
-      id: "special-lunch",
-      name: "Special Lunch Tiffin",
-      price: 120,
-      description: "4 Chapati + Special Dal + 2 Veg + Jeera Rice + Sweet"
+      id: "regular-veg-rice",
+      name: "Regular Veg Rice Meal",
+      price: 99,
+      description: "Steamed Rice/Jeera Rice, Dal, Paneer/Veg Gravy, Sookhi Sabji/Raita, Salad",
+      type: "veg"
     },
     {
-      id: "executive",
-      name: "Executive Tiffin",
-      price: 150,
-      description: "4 Butter Chapati + Dal Bukhara + Paneer + Biryani + Dessert"
+      id: "regular-nonveg-rice",
+      name: "Regular Non Veg Rice Meal",
+      price: 109,
+      description: "Steamed Rice/Jeera Rice, Dal, Egg/Chicken/Veg Gravy, Sookhi Sabji/Raita, Salad",
+      type: "non-veg"
+    },
+    {
+      id: "regular-veg",
+      name: "Regular Veg Meal",
+      price: 99,
+      description: "3 Roti, Rice, Dal, Paneer/Veg Gravy, Salad",
+      type: "veg"
+    },
+    {
+      id: "regular-nonveg",
+      name: "Regular Non Veg Meal",
+      price: 109,
+      description: "3 Roti, Rice, Dal, Egg/Chicken/Veg Gravy, Salad",
+      type: "non-veg"
+    },
+    {
+      id: "regular-veg-roti",
+      name: "Regular Veg Roti Meal",
+      price: 104,
+      description: "4 Roti, Dal, Paneer/Veg Gravy, Sookhi Sabji/Raita, Salad",
+      type: "veg"
+    },
+    {
+      id: "regular-nonveg-roti",
+      name: "Regular Non Veg Roti Meal",
+      price: 114,
+      description: "4 Roti, Dal, Egg/Chicken/Veg Gravy, Sookhi Sabji/Raita, Salad",
+      type: "non-veg"
+    },
+    {
+      id: "premium-veg",
+      name: "Premium Veg Meal",
+      price: 124,
+      description: "3 Roti, Paneer/Veg Gravy, Sookhi Sabji/Raita, Salad, Steamed Rice/Jeera Rice, Dal, Raita/Sweets",
+      type: "veg"
+    },
+    {
+      id: "premium-nonveg",
+      name: "Premium Non Veg Meal",
+      price: 129,
+      description: "3 Roti, Egg/Chicken/Veg Gravy, Sookhi Sabji/Raita, Salad, Steamed Rice/Jeera Rice, Dal, Raita/Sweets",
+      type: "non-veg"
     }
   ];
 
@@ -68,10 +114,10 @@ export default function BookTiffinPage() {
   ];
 
   const calculateTotal = () => {
-    const tiffin = tiffinOptions.find(t => t.id === selectedTiffin);
-    if (!tiffin) return 0;
+    const meal = mealOptions.find(m => m.id === selectedTiffin);
+    if (!meal) return 0;
     
-    let basePrice = tiffin.price * formData.quantity;
+    let basePrice = meal.price * formData.quantity;
     
     if (subscriptionType === "weekly") {
       basePrice = basePrice * 7 * 0.95; // 5% discount for weekly
@@ -171,29 +217,29 @@ export default function BookTiffinPage() {
               </CardHeader>
               <CardContent>
                 <div className="grid grid-cols-1 md:grid-cols-2 gap-4">
-                  {tiffinOptions.map((tiffin) => (
+                  {mealOptions.map((meal) => (
                     <div
-                      key={tiffin.id}
+                      key={meal.id}
                       className={`border rounded-lg p-4 cursor-pointer transition-all ${
-                        selectedTiffin === tiffin.id
+                        selectedTiffin === meal.id
                           ? "border-orange-500 bg-orange-50"
                           : "border-gray-200 hover:border-gray-300"
                       }`}
                       onClick={() => {
-                        setSelectedTiffin(tiffin.id);
-                        handleInputChange("tiffinType", tiffin.name);
+                        setSelectedTiffin(meal.id);
+                        handleInputChange("tiffinType", meal.name);
                       }}
                     >
                       <div className="flex justify-between items-start mb-2">
                         <div>
-                          <h3 className="font-semibold text-lg">{tiffin.name}</h3>
-                          <p className="text-sm text-gray-600">{tiffin.description}</p>
+                          <h3 className="font-semibold text-lg">{meal.name}</h3>
+                          <p className="text-sm text-gray-600">{meal.description}</p>
                         </div>
                         <div className="text-right">
-                          <div className="text-xl font-bold text-orange-600">₹{tiffin.price}</div>
+                          <div className="text-xl font-bold text-orange-600">₹{meal.price}</div>
                         </div>
                       </div>
-                      {selectedTiffin === tiffin.id && (
+                      {selectedTiffin === meal.id && (
                         <div className="flex items-center gap-2 text-green-600 text-sm">
                           <CheckCircle className="w-4 h-4" />
                           <span>Selected</span>
@@ -385,15 +431,15 @@ export default function BookTiffinPage() {
                 {selectedTiffin && (
                   <div className="space-y-3">
                     <div className="flex justify-between">
-                      <span>Tiffin Type:</span>
+                      <span>Meal Type:</span>
                       <span className="font-medium">
-                        {tiffinOptions.find(t => t.id === selectedTiffin)?.name}
+                        {mealOptions.find(m => m.id === selectedTiffin)?.name}
                       </span>
                     </div>
                     <div className="flex justify-between">
-                      <span>Price per tiffin:</span>
+                      <span>Price per meal:</span>
                       <span className="font-medium">
-                        ₹{tiffinOptions.find(t => t.id === selectedTiffin)?.price}
+                        ₹{mealOptions.find(m => m.id === selectedTiffin)?.price}
                       </span>
                     </div>
                     <div className="flex justify-between">

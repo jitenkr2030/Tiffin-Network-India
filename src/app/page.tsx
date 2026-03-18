@@ -16,12 +16,12 @@ export default function Home() {
                 Fresh & Homemade
               </Badge>
               <h1 className="text-4xl md:text-6xl font-bold text-gray-900 mb-6">
-                Delicious Tiffins
+                Delicious Meal Plans
                 <span className="text-orange-500"> Delivered Daily</span>
               </h1>
               <p className="text-xl text-gray-600 mb-8">
-                Fresh, homemade tiffins delivered to your doorstep in Delhi. 
-                Veg & Special tiffins with daily delivery service.
+                Fresh, homemade meals delivered to your doorstep in Delhi. 
+                Choose from our variety of delicious meal plans.
               </p>
               <div className="flex flex-col sm:flex-row gap-4">
                 <Link href="/book">
@@ -135,47 +135,43 @@ export default function Home() {
         </div>
       </section>
 
-      {/* Popular Tiffins Section */}
+      {/* Popular Meal Plans Section */}
       <section className="py-20 bg-gray-50">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
           <div className="text-center mb-16">
             <h2 className="text-3xl md:text-4xl font-bold text-gray-900 mb-4">
-              Popular Tiffin Options
+              Popular Meal Plans
             </h2>
             <p className="text-xl text-gray-600">
-              Choose from our variety of delicious tiffin options
+              Choose from our variety of delicious meal plans
             </p>
           </div>
           <div className="grid grid-cols-1 md:grid-cols-3 gap-8">
             <Card className="hover:shadow-lg transition-shadow">
               <CardHeader>
                 <div className="bg-green-100 w-16 h-16 rounded-lg flex items-center justify-center mb-4">
-                  <span className="text-green-600 font-bold text-xl">VEG</span>
+                  <span className="text-green-600 font-bold text-xl">MINI</span>
                 </div>
-                <CardTitle>Veg Lunch Tiffin</CardTitle>
-                <CardDescription className="text-2xl font-bold text-green-600">₹90</CardDescription>
+                <CardTitle>Mini Rice Meal</CardTitle>
+                <CardDescription className="text-2xl font-bold text-green-600">₹89</CardDescription>
               </CardHeader>
               <CardContent>
                 <ul className="space-y-2 text-gray-600">
-                  <li className="flex items-center gap-2">
-                    <CheckCircle className="w-4 h-4 text-green-500" />
-                    4 Fresh Chapati
-                  </li>
-                  <li className="flex items-center gap-2">
-                    <CheckCircle className="w-4 h-4 text-green-500" />
-                    Dal (Lentil Curry)
-                  </li>
-                  <li className="flex items-center gap-2">
-                    <CheckCircle className="w-4 h-4 text-green-500" />
-                    Seasonal Sabzi
-                  </li>
                   <li className="flex items-center gap-2">
                     <CheckCircle className="w-4 h-4 text-green-500" />
                     Steamed Rice
                   </li>
                   <li className="flex items-center gap-2">
                     <CheckCircle className="w-4 h-4 text-green-500" />
-                    Salad & Pickle
+                    Sookhi Sabji
+                  </li>
+                  <li className="flex items-center gap-2">
+                    <CheckCircle className="w-4 h-4 text-green-500" />
+                    Dal
+                  </li>
+                  <li className="flex items-center gap-2">
+                    <CheckCircle className="w-4 h-4 text-green-500" />
+                    Raita
                   </li>
                 </ul>
                 <Link href="/book">
@@ -189,32 +185,32 @@ export default function Home() {
             <Card className="hover:shadow-lg transition-shadow border-orange-200">
               <CardHeader>
                 <div className="bg-orange-100 w-16 h-16 rounded-lg flex items-center justify-center mb-4">
-                  <span className="text-orange-600 font-bold text-xl">SPL</span>
+                  <span className="text-orange-600 font-bold text-xl">REG</span>
                 </div>
-                <CardTitle>Special Tiffin</CardTitle>
-                <CardDescription className="text-2xl font-bold text-orange-600">₹120</CardDescription>
+                <CardTitle>Regular Veg Meal</CardTitle>
+                <CardDescription className="text-2xl font-bold text-orange-600">₹99</CardDescription>
               </CardHeader>
               <CardContent>
                 <ul className="space-y-2 text-gray-600">
                   <li className="flex items-center gap-2">
                     <CheckCircle className="w-4 h-4 text-orange-500" />
-                    4 Fresh Chapati
+                    3 Rotis
                   </li>
                   <li className="flex items-center gap-2">
                     <CheckCircle className="w-4 h-4 text-orange-500" />
-                    Special Dal
+                    Steamed Rice
                   </li>
                   <li className="flex items-center gap-2">
                     <CheckCircle className="w-4 h-4 text-orange-500" />
-                    2 Vegetables
+                    Dal
                   </li>
                   <li className="flex items-center gap-2">
                     <CheckCircle className="w-4 h-4 text-orange-500" />
-                    Jeera Rice
+                    Paneer/Veg Gravy
                   </li>
                   <li className="flex items-center gap-2">
                     <CheckCircle className="w-4 h-4 text-orange-500" />
-                    Sweet Dish
+                    Salad
                   </li>
                 </ul>
                 <Link href="/book">
@@ -228,32 +224,44 @@ export default function Home() {
             <Card className="hover:shadow-lg transition-shadow">
               <CardHeader>
                 <div className="bg-purple-100 w-16 h-16 rounded-lg flex items-center justify-center mb-4">
-                  <span className="text-purple-600 font-bold text-xl">WK</span>
+                  <span className="text-purple-600 font-bold text-xl">PRE</span>
                 </div>
-                <CardTitle>Weekly Package</CardTitle>
-                <CardDescription className="text-2xl font-bold text-purple-600">₹580</CardDescription>
+                <CardTitle>Premium Veg Meal</CardTitle>
+                <CardDescription className="text-2xl font-bold text-purple-600">₹124</CardDescription>
               </CardHeader>
               <CardContent>
                 <ul className="space-y-2 text-gray-600">
                   <li className="flex items-center gap-2">
                     <CheckCircle className="w-4 h-4 text-purple-500" />
-                    7 Days Tiffin Service
+                    3 Rotis
                   </li>
                   <li className="flex items-center gap-2">
                     <CheckCircle className="w-4 h-4 text-purple-500" />
-                    Save ₹40 on Veg Tiffin
+                    Paneer/Veg Gravy
                   </li>
                   <li className="flex items-center gap-2">
                     <CheckCircle className="w-4 h-4 text-purple-500" />
-                    Different Menu Daily
+                    Sookhi Sabji
                   </li>
                   <li className="flex items-center gap-2">
                     <CheckCircle className="w-4 h-4 text-purple-500" />
-                    Free Delivery
+                    Raita
                   </li>
                   <li className="flex items-center gap-2">
                     <CheckCircle className="w-4 h-4 text-purple-500" />
-                    Weekend Special Dish
+                    Salad
+                  </li>
+                  <li className="flex items-center gap-2">
+                    <CheckCircle className="w-4 h-4 text-purple-500" />
+                    Steamed Rice
+                  </li>
+                  <li className="flex items-center gap-2">
+                    <CheckCircle className="w-4 h-4 text-purple-500" />
+                    Dal
+                  </li>
+                  <li className="flex items-center gap-2">
+                    <CheckCircle className="w-4 h-4 text-purple-500" />
+                    Sweets
                   </li>
                 </ul>
                 <Link href="/book">
