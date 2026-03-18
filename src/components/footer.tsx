@@ -73,8 +73,8 @@ const Footer = () => {
               <div className="flex items-start space-x-2">
                 <MapPin className="w-4 h-4 text-orange-400 mt-1" />
                 <span className="text-gray-300">
-                  Main Kitchen, Rohini<br />
-                  New Delhi, Delhi 110085
+                  Main Kitchen, Janakpuri<br />
+                  New Delhi, Delhi 110058
                 </span>
               </div>
               <div className="flex items-center space-x-2">
@@ -91,7 +91,7 @@ const Footer = () => {
         <div className="border-t border-gray-800 mt-8 pt-8">
           <h3 className="font-semibold text-lg mb-4">Service Areas</h3>
           <div className="flex flex-wrap gap-2">
-            {["Rohini", "Pitampura", "Dwarka", "Karol Bagh", "Paschim Vihar", "Punjabi Bagh"].map((area) => (
+            {["Janakpuri", "Palam", "Sagar Pur", "Uttam Nagar", "Maya Puri", "Hari Nagar", "Tilak Nagar"].map((area) => (
               <span
                 key={area}
                 className="bg-gray-800 text-gray-300 px-3 py-1 rounded-full text-sm"

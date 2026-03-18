@@ -147,8 +147,8 @@ export default function ContactPage() {
                     <p className="font-semibold">Main Kitchen</p>
                     <p className="text-sm text-gray-600">
                       Shop No. 15, Ground Floor<br />
-                      Sector 7, Rohini<br />
-                      New Delhi, Delhi 110085
+                      District Centre, Janakpuri<br />
+                      New Delhi, Delhi 110058
                     </p>
                   </div>
                   <div className="pt-3 border-t">
@@ -281,8 +281,8 @@ export default function ContactPage() {
               
               <div className="grid grid-cols-2 gap-3 mb-8">
                 {[
-                  "Rohini", "Pitampura", "Dwarka", "Karol Bagh",
-                  "Paschim Vihar", "Punjabi Bagh"
+                  "Janakpuri", "Palam", "Sagar Pur", "Uttam Nagar",
+                  "Maya Puri", "Hari Nagar", "Tilak Nagar"
                 ].map((area) => (
                   <Badge 
                     key={area} 

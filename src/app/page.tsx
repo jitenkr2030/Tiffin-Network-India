@@ -278,8 +278,8 @@ export default function Home() {
               Fresh tiffin delivery available in these Delhi locations
             </p>
           </div>
-          <div className="grid grid-cols-2 md:grid-cols-3 lg:grid-cols-6 gap-4">
-            {["Rohini", "Pitampura", "Dwarka", "Karol Bagh", "Paschim Vihar", "Punjabi Bagh"].map((area) => (
+          <div className="grid grid-cols-2 md:grid-cols-3 lg:grid-cols-7 gap-4">
+            {["Janakpuri", "Palam", "Sagar Pur", "Uttam Nagar", "Maya Puri", "Hari Nagar", "Tilak Nagar"].map((area) => (
               <Card key={area} className="text-center hover:shadow-md transition-shadow">
                 <CardContent className="p-6">
                   <MapPin className="w-8 h-8 text-orange-500 mx-auto mb-2" />

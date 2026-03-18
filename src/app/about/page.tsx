@@ -177,8 +177,8 @@ export default function AboutPage() {
               </CardHeader>
               <CardContent>
                 <p className="text-gray-600">
-                  20+ years of culinary experience. Passionate about creating 
-                  authentic home-style meals.
+                  20+ years of culinary experience. Specializes in West Delhi 
+                  cuisine and traditional home-style cooking.
                 </p>
               </CardContent>
             </Card>
@@ -223,10 +223,10 @@ export default function AboutPage() {
               We deliver fresh tiffins to these locations in Delhi
             </p>
           </div>
-          <div className="grid grid-cols-2 md:grid-cols-3 lg:grid-cols-6 gap-6">
+          <div className="grid grid-cols-2 md:grid-cols-3 lg:grid-cols-7 gap-6">
             {[
-              "Rohini", "Pitampura", "Dwarka", "Karol Bagh", 
-              "Paschim Vihar", "Punjabi Bagh"
+              "Janakpuri", "Palam", "Sagar Pur", "Uttam Nagar", 
+              "Maya Puri", "Hari Nagar", "Tilak Nagar"
             ].map((area) => (
               <Card key={area} className="text-center hover:shadow-md transition-shadow">
                 <CardContent className="p-6">

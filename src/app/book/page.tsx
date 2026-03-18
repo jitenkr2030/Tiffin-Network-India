@@ -58,12 +58,13 @@ export default function BookTiffinPage() {
   ];
 
   const areas = [
-    "Rohini",
-    "Pitampura", 
-    "Dwarka",
-    "Karol Bagh",
-    "Paschim Vihar",
-    "Punjabi Bagh"
+    "Janakpuri",
+    "Palam", 
+    "Sagar Pur",
+    "Uttam Nagar",
+    "Maya Puri",
+    "Hari Nagar",
+    "Tilak Nagar"
   ];
 
   const calculateTotal = () => {
