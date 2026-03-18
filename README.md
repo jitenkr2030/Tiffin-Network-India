@@ -9,7 +9,7 @@ A comprehensive tiffin booking website built with Next.js 16, TypeScript, and Ta
 - 📝 **Smart Booking Form** - Real-time price calculation and form validation
 - 📅 **Flexible Subscriptions** - Daily, Weekly, and Monthly options with discounts
 - 📱 **WhatsApp Integration** - Easy ordering via WhatsApp
-- 📍 **Service Areas** - Multiple Delhi locations (Rohini, Pitampura, Dwarka, etc.)
+- 📍 **Service Areas** - West Delhi locations (Janakpuri, Palam, Sagar Pur, Uttam Nagar, Maya Puri, Hari Nagar, Tilak Nagar)
 - 📞 **Contact Information** - Complete contact details and FAQ
 
 ### Admin Features
@@ -199,6 +199,7 @@ For support or questions:
 - 📞 Call: +91 98765 43210
 - 📧 Email: support@tiffinnetworkindia.com
 - 💬 WhatsApp: +91 98765 43210
+- 📍 Main Kitchen: District Centre, Janakpuri, New Delhi 110058
 
 ---
 
