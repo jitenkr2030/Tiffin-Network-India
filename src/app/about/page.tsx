@@ -12,11 +12,11 @@ export default function AboutPage() {
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
           <div className="text-center">
             <h1 className="text-4xl md:text-5xl font-bold text-gray-900 mb-6">
-              About <span className="text-orange-500">Tiffin Network India</span>
+              About <span className="text-orange-500">YAY Tiffin</span>
             </h1>
             <p className="text-xl text-gray-600 max-w-3xl mx-auto">
               Serving fresh, homemade tiffins to Delhi families since 2020. 
-              We believe in delivering not just food, but love and care in every meal.
+              YAY Tiffin believes in delivering not just food, but happiness in every meal!
             </p>
           </div>
         </div>
@@ -28,19 +28,19 @@ export default function AboutPage() {
           <div className="grid grid-cols-1 lg:grid-cols-2 gap-12 items-center">
             <div>
               <h2 className="text-3xl md:text-4xl font-bold text-gray-900 mb-6">
-                Our Story
+                Our YAY Story
               </h2>
               <p className="text-lg text-gray-600 mb-4">
-                Tiffin Network India started with a simple mission: to provide fresh, 
+                YAY Tiffin started with a simple mission: to provide fresh, 
                 homemade meals to busy professionals and families who miss the taste of home-cooked food.
               </p>
               <p className="text-lg text-gray-600 mb-4">
                 Founded in 2020 by a team of food enthusiasts, we began with just 10 customers 
-                in Rohini. Today, we serve over 1000+ happy customers across multiple areas in Delhi.
+                in Janakpuri. Today, YAY Tiffin serves over 1000+ happy customers across West Delhi.
               </p>
               <p className="text-lg text-gray-600 mb-6">
-                Our commitment to quality, hygiene, and taste has made us the preferred choice 
-                for tiffin service in Delhi NCR.
+                Our commitment to quality, hygiene, and taste has made YAY Tiffin the preferred choice 
+                for tiffin service in West Delhi.
               </p>
               <div className="flex flex-wrap gap-4">
                 <div className="text-center">

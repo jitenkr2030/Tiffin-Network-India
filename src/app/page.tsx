@@ -79,11 +79,11 @@ export default function Home() {
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
           <div className="text-center mb-16">
             <h2 className="text-3xl md:text-4xl font-bold text-gray-900 mb-4">
-              Why Choose Tiffin Network India?
+              Why Choose YAY Tiffin?
             </h2>
             <p className="text-xl text-gray-600 max-w-3xl mx-auto">
               We're committed to providing fresh, delicious, and affordable tiffin service 
-              with unmatched convenience and quality.
+              with unmatched convenience and quality. YAY Tiffin brings happiness to your meals!
             </p>
           </div>
           <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-8">
@@ -295,7 +295,7 @@ export default function Home() {
       <section className="py-20 bg-gradient-to-r from-orange-500 to-red-500">
         <div className="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8 text-center">
           <h2 className="text-3xl md:text-4xl font-bold text-white mb-6">
-            Ready to Order Your Tiffin?
+            Ready to Order Your YAY Tiffin?
           </h2>
           <p className="text-xl text-white/90 mb-8">
             Join thousands of happy customers enjoying fresh, homemade tiffins daily

@@ -1,4 +1,4 @@
-# Tiffin Network India 🍱
+# YAY Tiffin 🍱
 
 A comprehensive tiffin booking website built with Next.js 16, TypeScript, and Tailwind CSS. Complete customer and admin functionality for managing daily tiffin deliveries in Delhi.
 
@@ -197,10 +197,10 @@ This project is licensed under the MIT License.
 
 For support or questions:
 - 📞 Call: +91 87001 89551
-- 📧 Email: support@tiffinnetworkindia.com
+- 📧 Email: support@yaytiffin.com
 - 💬 WhatsApp: +91 87001 89551
 - 📍 Main Kitchen: District Centre, Janakpuri, New Delhi 110058
 
 ---
 
-**Built with ❤️ for Tiffin Network India**
+**Built with ❤️ for YAY Tiffin**

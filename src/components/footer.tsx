@@ -10,9 +10,9 @@ const Footer = () => {
           <div className="col-span-1 md:col-span-2">
             <div className="flex items-center space-x-2 mb-4">
               <div className="w-8 h-8 bg-orange-500 rounded-lg flex items-center justify-center">
-                <span className="text-white font-bold text-sm">TNI</span>
+                <span className="text-white font-bold text-sm">YAY</span>
               </div>
-              <span className="font-bold text-xl">Tiffin Network India</span>
+              <span className="font-bold text-xl">YAY Tiffin</span>
             </div>
             <p className="text-gray-300 mb-4">
               Fresh, homemade tiffins delivered daily to your doorstep. 
@@ -68,7 +68,7 @@ const Footer = () => {
               </div>
               <div className="flex items-center space-x-2">
                 <Mail className="w-4 h-4 text-orange-400" />
-                <span className="text-gray-300">order@tiffinnetworkindia.com</span>
+                <span className="text-gray-300">order@yaytiffin.com</span>
               </div>
               <div className="flex items-start space-x-2">
                 <MapPin className="w-4 h-4 text-orange-400 mt-1" />
@@ -104,7 +104,7 @@ const Footer = () => {
 
         {/* Copyright */}
         <div className="border-t border-gray-800 mt-8 pt-8 text-center text-gray-400">
-          <p>&copy; 2024 Tiffin Network India. All rights reserved.</p>
+          <p>&copy; 2024 YAY Tiffin. All rights reserved.</p>
           <p className="text-sm mt-2">
             <a href="/admin" className="hover:text-orange-400 transition-colors">
               Admin Dashboard

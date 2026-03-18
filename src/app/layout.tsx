@@ -16,23 +16,24 @@ const geistMono = Geist_Mono({
 });
 
 export const metadata: Metadata = {
-  title: "Tiffin Network India - Fresh & Delicious Tiffin Service",
-  description: "Order fresh, homemade tiffins in Delhi. Veg & Special tiffins available with daily delivery service in Rohini, Pitampura, Dwarka & Karol Bagh.",
-  keywords: ["tiffin", "food delivery", "homemade food", "Delhi tiffin service", "lunch delivery", "dinner delivery"],
-  authors: [{ name: "Tiffin Network India" }],
+  title: "YAY Tiffin - Fresh & Delicious Tiffin Service",
+  description: "Order fresh, homemade tiffins in Delhi. Veg & Special tiffins available with daily delivery service in Janakpuri, Palam, Uttam Nagar & surrounding West Delhi areas.",
+  keywords: ["YAY Tiffin", "tiffin", "food delivery", "homemade food", "Delhi tiffin service", "lunch delivery", "dinner delivery"],
+  authors: [{ name: "YAY Tiffin" }],
   icons: {
-    icon: "https://z-cdn.chatglm.cn/z-ai/static/logo.svg",
+    icon: "/favicon.svg",
+    apple: "/favicon.svg",
   },
   openGraph: {
-    title: "Tiffin Network India - Fresh Tiffin Service",
+    title: "YAY Tiffin - Fresh Tiffin Service",
     description: "Fresh, homemade tiffins delivered daily in Delhi",
-    url: "https://tiffinnetworkindia.com",
-    siteName: "Tiffin Network India",
+    url: "https://yaytiffin.com",
+    siteName: "YAY Tiffin",
     type: "website",
   },
   twitter: {
     card: "summary_large_image",
-    title: "Tiffin Network India",
+    title: "YAY Tiffin",
     description: "Fresh, homemade tiffins delivered daily in Delhi",
   },
 };

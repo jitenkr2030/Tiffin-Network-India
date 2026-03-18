@@ -62,11 +62,11 @@ export default function ContactPage() {
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
           <div className="text-center">
             <h1 className="text-4xl md:text-5xl font-bold text-gray-900 mb-6">
-              Contact <span className="text-orange-500">Us</span>
+              Contact <span className="text-orange-500">YAY Tiffin</span>
             </h1>
             <p className="text-xl text-gray-600 max-w-3xl mx-auto">
               Have questions about our tiffin service? Want to place an order? 
-              We're here to help! Get in touch with us through any of these channels.
+              YAY Tiffin is here to help! Get in touch with us through any of these channels.
             </p>
           </div>
         </div>
@@ -116,11 +116,11 @@ export default function ContactPage() {
               <CardContent>
                 <div className="space-y-3">
                   <div>
-                    <p className="font-semibold text-lg">order@tiffinnetworkindia.com</p>
+                    <p className="font-semibold text-lg">order@yaytiffin.com</p>
                     <p className="text-sm text-gray-600">For Orders</p>
                   </div>
                   <div>
-                    <p className="font-semibold text-lg">support@tiffinnetworkindia.com</p>
+                    <p className="font-semibold text-lg">support@yaytiffin.com</p>
                     <p className="text-sm text-gray-600">For Support</p>
                   </div>
                   <div className="pt-3 border-t">
