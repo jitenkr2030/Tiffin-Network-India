@@ -434,7 +434,7 @@ export default function BookTiffinPage() {
                 {isSubmitting ? "Submitting..." : "Submit Order"}
               </Button>
               <a
-                href="https://wa.me/919876543210?text=Hi%20I%20want%20to%20order%20tiffin"
+                href="https://wa.me/918700189551?text=Hi%20I%20want%20to%20order%20tiffin"
                 target="_blank"
                 rel="noopener noreferrer"
                 className="bg-green-500 hover:bg-green-600 text-white px-6 py-3 rounded-lg flex items-center justify-center space-x-2 transition-colors"

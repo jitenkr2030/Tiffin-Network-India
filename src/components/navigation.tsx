@@ -45,7 +45,7 @@ const Navigation = () => {
           {/* WhatsApp Button - Desktop */}
           <div className="hidden md:flex items-center space-x-4">
             <a
-              href="https://wa.me/919876543210?text=Hi%20I%20want%20to%20order%20tiffin"
+              href="https://wa.me/918700189551?text=Hi%20I%20want%20to%20order%20tiffin"
               target="_blank"
               rel="noopener noreferrer"
               className="bg-green-500 hover:bg-green-600 text-white px-4 py-2 rounded-lg flex items-center space-x-2 transition-colors"
@@ -76,7 +76,7 @@ const Navigation = () => {
                 ))}
                 <div className="pt-4 border-t">
                   <a
-                    href="https://wa.me/919876543210?text=Hi%20I%20want%20to%20order%20tiffin"
+                    href="https://wa.me/918700189551?text=Hi%20I%20want%20to%20order%20tiffin"
                     target="_blank"
                     rel="noopener noreferrer"
                     className="bg-green-500 hover:bg-green-600 text-white px-4 py-2 rounded-lg flex items-center justify-center space-x-2 transition-colors w-full"

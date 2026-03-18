@@ -196,9 +196,9 @@ This project is licensed under the MIT License.
 ## 🆘 Support
 
 For support or questions:
-- 📞 Call: +91 98765 43210
+- 📞 Call: +91 87001 89551
 - 📧 Email: support@tiffinnetworkindia.com
-- 💬 WhatsApp: +91 98765 43210
+- 💬 WhatsApp: +91 87001 89551
 - 📍 Main Kitchen: District Centre, Janakpuri, New Delhi 110058
 
 ---

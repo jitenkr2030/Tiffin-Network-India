@@ -88,11 +88,11 @@ export default function ContactPage() {
               <CardContent>
                 <div className="space-y-3">
                   <div>
-                    <p className="font-semibold text-lg">+91 98765 43210</p>
+                    <p className="font-semibold text-lg">+91 87001 89551</p>
                     <p className="text-sm text-gray-600">Main Number</p>
                   </div>
                   <div>
-                    <p className="font-semibold text-lg">+91 98765 43211</p>
+                    <p className="font-semibold text-lg">+91 87001 89551</p>
                     <p className="text-sm text-gray-600">WhatsApp Support</p>
                   </div>
                   <div className="pt-3 border-t">
@@ -169,7 +169,7 @@ export default function ContactPage() {
             </h2>
             <div className="flex flex-col sm:flex-row gap-4 justify-center">
               <a
-                href="https://wa.me/919876543210?text=Hi%20I%20want%20to%20order%20tiffin"
+                href="https://wa.me/918700189551?text=Hi%20I%20want%20to%20order%20tiffin"
                 target="_blank"
                 rel="noopener noreferrer"
                 className="bg-green-500 hover:bg-green-600 text-white px-6 py-3 rounded-lg flex items-center justify-center space-x-2 transition-colors"
@@ -178,7 +178,7 @@ export default function ContactPage() {
                 <span>Order on WhatsApp</span>
               </a>
               <a
-                href="tel:+919876543210"
+                href="tel:+918700189551"
                 className="bg-orange-500 hover:bg-orange-600 text-white px-6 py-3 rounded-lg flex items-center justify-center space-x-2 transition-colors"
               >
                 <Phone className="w-5 h-5" />
@@ -332,7 +332,7 @@ export default function ContactPage() {
                   We're here to help!
                 </p>
                 <a
-                  href="tel:+919876543210"
+                  href="tel:+918700189551"
                   className="bg-blue-600 hover:bg-blue-700 text-white px-4 py-2 rounded-lg inline-flex items-center space-x-2 transition-colors"
                 >
                   <Phone className="w-4 h-4" />
