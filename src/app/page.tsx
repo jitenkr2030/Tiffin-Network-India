@@ -156,6 +156,7 @@ export default function Home() {
                 <CardDescription className="text-2xl font-bold text-green-600">₹89</CardDescription>
               </CardHeader>
               <CardContent>
+<<<<<<< HEAD
                 <div className="mb-4">
                   <div className="flex items-center gap-4 text-sm text-gray-600">
                     <div className="flex items-center gap-1">
@@ -168,6 +169,8 @@ export default function Home() {
                     </div>
                   </div>
                 </div>
+=======
+>>>>>>> 1c99cdc (Initial commit)
                 <ul className="space-y-2 text-gray-600">
                   <li className="flex items-center gap-2">
                     <CheckCircle className="w-4 h-4 text-green-500" />
@@ -203,6 +206,7 @@ export default function Home() {
                 <CardDescription className="text-2xl font-bold text-orange-600">₹99</CardDescription>
               </CardHeader>
               <CardContent>
+<<<<<<< HEAD
                 <div className="mb-4">
                   <div className="flex items-center gap-4 text-sm text-gray-600">
                     <div className="flex items-center gap-1">
@@ -215,6 +219,8 @@ export default function Home() {
                     </div>
                   </div>
                 </div>
+=======
+>>>>>>> 1c99cdc (Initial commit)
                 <ul className="space-y-2 text-gray-600">
                   <li className="flex items-center gap-2">
                     <CheckCircle className="w-4 h-4 text-orange-500" />
@@ -232,6 +238,13 @@ export default function Home() {
                     <CheckCircle className="w-4 h-4 text-orange-500" />
                     Paneer/Veg Gravy
                   </li>
+<<<<<<< HEAD
+=======
+                  <li className="flex items-center gap-2">
+                    <CheckCircle className="w-4 h-4 text-orange-500" />
+                    Salad
+                  </li>
+>>>>>>> 1c99cdc (Initial commit)
                 </ul>
                 <Link href="/book">
                   <Button className="w-full mt-6 bg-orange-500 hover:bg-orange-600">
@@ -250,6 +263,7 @@ export default function Home() {
                 <CardDescription className="text-2xl font-bold text-purple-600">₹124</CardDescription>
               </CardHeader>
               <CardContent>
+<<<<<<< HEAD
                 <div className="mb-4">
                   <div className="flex items-center gap-4 text-sm text-gray-600">
                     <div className="flex items-center gap-1">
@@ -262,6 +276,8 @@ export default function Home() {
                     </div>
                   </div>
                 </div>
+=======
+>>>>>>> 1c99cdc (Initial commit)
                 <ul className="space-y-2 text-gray-600">
                   <li className="flex items-center gap-2">
                     <CheckCircle className="w-4 h-4 text-purple-500" />
@@ -279,6 +295,25 @@ export default function Home() {
                     <CheckCircle className="w-4 h-4 text-purple-500" />
                     Raita
                   </li>
+<<<<<<< HEAD
+=======
+                  <li className="flex items-center gap-2">
+                    <CheckCircle className="w-4 h-4 text-purple-500" />
+                    Salad
+                  </li>
+                  <li className="flex items-center gap-2">
+                    <CheckCircle className="w-4 h-4 text-purple-500" />
+                    Steamed Rice
+                  </li>
+                  <li className="flex items-center gap-2">
+                    <CheckCircle className="w-4 h-4 text-purple-500" />
+                    Dal
+                  </li>
+                  <li className="flex items-center gap-2">
+                    <CheckCircle className="w-4 h-4 text-purple-500" />
+                    Sweets
+                  </li>
+>>>>>>> 1c99cdc (Initial commit)
                 </ul>
                 <Link href="/book">
                   <Button className="w-full mt-6 bg-purple-500 hover:bg-purple-600">
