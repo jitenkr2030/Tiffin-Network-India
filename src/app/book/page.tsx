@@ -36,10 +36,16 @@ export default function BookTiffinPage() {
       name: "Mini Rice Meal",
       price: 89,
 <<<<<<< HEAD
+<<<<<<< HEAD
       servingSize: "1 Person",
       quantity: "1 Meal",
 =======
 >>>>>>> 1c99cdc (Initial commit)
+=======
+      servingSize: "1 Person",
+      quantity: "1 Meal",
+      image: "/images/meals/mini-rice-meal.jpg",
+>>>>>>> cc634c7 (Add images to all meals across tiffin, pizza, and biryani services)
       description: "Rice, Sookhi Sabji/Raita, Dal",
       type: "veg"
     },
@@ -48,10 +54,16 @@ export default function BookTiffinPage() {
       name: "Mini Roti Meal",
       price: 89,
 <<<<<<< HEAD
+<<<<<<< HEAD
       servingSize: "1 Person",
       quantity: "1 Meal",
 =======
 >>>>>>> 1c99cdc (Initial commit)
+=======
+      servingSize: "1 Person",
+      quantity: "1 Meal",
+      image: "/images/meals/mini-roti-meal.jpg",
+>>>>>>> cc634c7 (Add images to all meals across tiffin, pizza, and biryani services)
       description: "4 Roti, Paneer/Veg Gravy, Sookhi Sabji/Raita, Salad",
       type: "veg"
     },
@@ -390,7 +402,7 @@ export default function BookTiffinPage() {
                   {mealOptions.map((meal) => (
                     <div
                       key={meal.id}
-                      className={`border rounded-lg p-4 cursor-pointer transition-all ${
+                      className={`border rounded-lg overflow-hidden cursor-pointer transition-all ${
                         selectedTiffin === meal.id
                           ? "border-orange-500 bg-orange-50"
                           : "border-gray-200 hover:border-gray-300"
@@ -400,6 +412,7 @@ export default function BookTiffinPage() {
                         handleInputChange("tiffinType", meal.name);
                       }}
                     >
+<<<<<<< HEAD
                       <div className="flex justify-between items-start mb-2">
                         <div>
                           <h3 className="font-semibold text-lg">{meal.name}</h3>
@@ -420,10 +433,41 @@ export default function BookTiffinPage() {
                         </div>
                         <div className="text-right">
                           <div className="text-xl font-bold text-orange-600">₹{meal.price}</div>
+=======
+                      <div className="relative h-32 w-full">
+                        <img
+                          src={meal.image}
+                          alt={meal.name}
+                          className="w-full h-full object-cover"
+                          onError={(e) => {
+                            e.currentTarget.src = "https://via.placeholder.com/300x150/ff6b35/ffffff?text=" + encodeURIComponent(meal.name);
+                          }}
+                        />
+                      </div>
+                      <div className="p-4">
+                        <div className="flex justify-between items-start mb-2">
+                          <div>
+                            <h3 className="font-semibold text-lg">{meal.name}</h3>
+                            <p className="text-sm text-gray-600">{meal.description}</p>
+                            <div className="flex items-center gap-4 mt-2 text-xs text-gray-500">
+                              <div className="flex items-center gap-1">
+                                <span className="font-medium">Serving:</span>
+                                <span>{meal.servingSize}</span>
+                              </div>
+                              <div className="flex items-center gap-1">
+                                <span className="font-medium">Quantity:</span>
+                                <span>{meal.quantity}</span>
+                              </div>
+                            </div>
+                          </div>
+                          <div className="text-right">
+                            <div className="text-xl font-bold text-orange-600">₹{meal.price}</div>
+                          </div>
+>>>>>>> cc634c7 (Add images to all meals across tiffin, pizza, and biryani services)
                         </div>
                       </div>
                       {selectedTiffin === meal.id && (
-                        <div className="flex items-center gap-2 text-green-600 text-sm">
+                        <div className="flex items-center gap-2 text-green-600 text-sm p-2 bg-green-50">
                           <CheckCircle className="w-4 h-4" />
                           <span>Selected</span>
                         </div>

@@ -15,10 +15,16 @@ export default function MenuPage() {
           price: 89,
           originalPrice: 149,
 <<<<<<< HEAD
+<<<<<<< HEAD
           servingSize: "1 Person",
           quantity: "1 Meal",
 =======
 >>>>>>> 1c99cdc (Initial commit)
+=======
+          servingSize: "1 Person",
+          quantity: "1 Meal",
+          image: "/images/meals/mini-rice-meal.jpg",
+>>>>>>> cc634c7 (Add images to all meals across tiffin, pizza, and biryani services)
           description: "Rice, Sookhi Sabji/Raita, Dal",
           items: ["Steamed Rice", "Sookhi Sabji", "Dal", "Raita"],
           popular: false,
@@ -30,10 +36,16 @@ export default function MenuPage() {
           price: 89,
           originalPrice: 149,
 <<<<<<< HEAD
+<<<<<<< HEAD
           servingSize: "1 Person",
           quantity: "1 Meal",
 =======
 >>>>>>> 1c99cdc (Initial commit)
+=======
+          servingSize: "1 Person",
+          quantity: "1 Meal",
+          image: "/images/meals/mini-roti-meal.jpg",
+>>>>>>> cc634c7 (Add images to all meals across tiffin, pizza, and biryani services)
           description: "4 Roti, Paneer/Veg Gravy, Sookhi Sabji/Raita, Salad",
           items: ["4 Fresh Rotis", "Paneer/Veg Gravy", "Sookhi Sabji", "Raita", "Salad"],
           popular: false,
