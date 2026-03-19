@@ -14,17 +14,9 @@ export default function MenuPage() {
           name: "Mini Rice Meal",
           price: 89,
           originalPrice: 149,
-<<<<<<< HEAD
-<<<<<<< HEAD
-          servingSize: "1 Person",
-          quantity: "1 Meal",
-=======
->>>>>>> 1c99cdc (Initial commit)
-=======
           servingSize: "1 Person",
           quantity: "1 Meal",
           image: "/images/meals/mini-rice-meal.jpg",
->>>>>>> cc634c7 (Add images to all meals across tiffin, pizza, and biryani services)
           description: "Rice, Sookhi Sabji/Raita, Dal",
           items: ["Steamed Rice", "Sookhi Sabji", "Dal", "Raita"],
           popular: false,
@@ -35,17 +27,9 @@ export default function MenuPage() {
           name: "Mini Roti Meal",
           price: 89,
           originalPrice: 149,
-<<<<<<< HEAD
-<<<<<<< HEAD
-          servingSize: "1 Person",
-          quantity: "1 Meal",
-=======
->>>>>>> 1c99cdc (Initial commit)
-=======
           servingSize: "1 Person",
           quantity: "1 Meal",
           image: "/images/meals/mini-roti-meal.jpg",
->>>>>>> cc634c7 (Add images to all meals across tiffin, pizza, and biryani services)
           description: "4 Roti, Paneer/Veg Gravy, Sookhi Sabji/Raita, Salad",
           items: ["4 Fresh Rotis", "Paneer/Veg Gravy", "Sookhi Sabji", "Raita", "Salad"],
           popular: false,
@@ -61,11 +45,6 @@ export default function MenuPage() {
           name: "Regular Veg Rice Meal",
           price: 99,
           originalPrice: 159,
-<<<<<<< HEAD
-          servingSize: "1 Person",
-          quantity: "1 Meal",
-=======
->>>>>>> 1c99cdc (Initial commit)
           description: "Steamed Rice/Jeera Rice, Dal, Paneer/Veg Gravy, Sookhi Sabji/Raita, Salad",
           items: ["Steamed Rice", "Dal", "Paneer/Veg Gravy", "Sookhi Sabji", "Raita", "Salad"],
           popular: false,
@@ -76,11 +55,6 @@ export default function MenuPage() {
           name: "Regular Non Veg Rice Meal",
           price: 109,
           originalPrice: 169,
-<<<<<<< HEAD
-          servingSize: "1 Person",
-          quantity: "1 Meal",
-=======
->>>>>>> 1c99cdc (Initial commit)
           description: "Steamed Rice/Jeera Rice, Dal, Egg/Chicken/Veg Gravy, Sookhi Sabji/Raita, Salad",
           items: ["Steamed Rice", "Dal", "Egg/Chicken Gravy", "Sookhi Sabji", "Raita", "Salad"],
           popular: false,
@@ -91,11 +65,6 @@ export default function MenuPage() {
           name: "Regular Veg Meal",
           price: 99,
           originalPrice: 159,
-<<<<<<< HEAD
-          servingSize: "1 Person",
-          quantity: "1 Meal",
-=======
->>>>>>> 1c99cdc (Initial commit)
           description: "4 Roti, Rice, Dal, Paneer/Veg Gravy, Salad",
           items: ["4 Rotis", "Steamed Rice", "Dal", "Paneer/Veg Gravy", "Salad"],
           popular: true,
@@ -106,11 +75,6 @@ export default function MenuPage() {
           name: "Regular Non Veg Meal",
           price: 109,
           originalPrice: 169,
-<<<<<<< HEAD
-          servingSize: "1 Person",
-          quantity: "1 Meal",
-=======
->>>>>>> 1c99cdc (Initial commit)
           description: "4 Roti, Rice, Dal, Egg/Chicken/Veg Gravy, Salad",
           items: ["4 Rotis", "Steamed Rice", "Dal", "Egg/Chicken Gravy", "Salad"],
           popular: true,
@@ -121,11 +85,6 @@ export default function MenuPage() {
           name: "Regular Veg Roti Meal",
           price: 104,
           originalPrice: 169,
-<<<<<<< HEAD
-          servingSize: "1 Person",
-          quantity: "1 Meal",
-=======
->>>>>>> 1c99cdc (Initial commit)
           description: "4 Roti, Dal, Paneer/Veg Gravy, Sookhi Sabji/Raita, Salad",
           items: ["4 Rotis", "Dal", "Paneer/Veg Gravy", "Sookhi Sabji", "Raita", "Salad"],
           popular: false,
@@ -136,11 +95,6 @@ export default function MenuPage() {
           name: "Regular Non Veg Roti Meal",
           price: 114,
           originalPrice: 179,
-<<<<<<< HEAD
-          servingSize: "1 Person",
-          quantity: "1 Meal",
-=======
->>>>>>> 1c99cdc (Initial commit)
           description: "4 Roti, Dal, Egg/Chicken/Veg Gravy, Sookhi Sabji/Raita, Salad",
           items: ["4 Rotis", "Dal", "Egg/Chicken Gravy", "Sookhi Sabji", "Raita", "Salad"],
           popular: false,
@@ -156,11 +110,6 @@ export default function MenuPage() {
           name: "Premium Veg Meal",
           price: 124,
           originalPrice: 179,
-<<<<<<< HEAD
-          servingSize: "1 Person",
-          quantity: "1 Meal",
-=======
->>>>>>> 1c99cdc (Initial commit)
           description: "4 Roti, Paneer/Veg Gravy, Sookhi Sabji/Raita, Salad, Steamed Rice/Jeera Rice, Dal, Raita/Sweets",
           items: ["4 Rotis", "Paneer/Veg Gravy", "Sookhi Sabji", "Raita", "Salad", "Steamed Rice", "Dal", "Sweets"],
           popular: true,
@@ -171,11 +120,6 @@ export default function MenuPage() {
           name: "Premium Non Veg Meal",
           price: 129,
           originalPrice: 189,
-<<<<<<< HEAD
-          servingSize: "1 Person",
-          quantity: "1 Meal",
-=======
->>>>>>> 1c99cdc (Initial commit)
           description: "4 Roti, Egg/Chicken/Veg Gravy, Sookhi Sabji/Raita, Salad, Steamed Rice/Jeera Rice, Dal, Raita/Sweets",
           items: ["4 Rotis", "Egg/Chicken Gravy", "Sookhi Sabji", "Raita", "Salad", "Steamed Rice", "Dal", "Sweets"],
           popular: true,
@@ -191,11 +135,6 @@ export default function MenuPage() {
           name: "Margherita Pizza",
           price: 129,
           originalPrice: 189,
-<<<<<<< HEAD
-          servingSize: "12 inch",
-          quantity: "1 Pizza (8 Slices)",
-=======
->>>>>>> 1c99cdc (Initial commit)
           description: "Classic cheese pizza with tomato sauce and fresh basil",
           items: ["12\" Pizza Base", "Tomato Sauce", "Fresh Mozzarella", "Fresh Basil", "Olive Oil"],
           popular: true,
@@ -206,11 +145,6 @@ export default function MenuPage() {
           name: "Veggie Supreme Pizza",
           price: 149,
           originalPrice: 209,
-<<<<<<< HEAD
-          servingSize: "12 inch",
-          quantity: "1 Pizza (8 Slices)",
-=======
->>>>>>> 1c99cdc (Initial commit)
           description: "Loaded with fresh vegetables and extra cheese",
           items: ["12\" Pizza Base", "Tomato Sauce", "Extra Cheese", "Bell Peppers", "Onions", "Mushrooms", "Olives", "Corn"],
           popular: true,
@@ -221,11 +155,6 @@ export default function MenuPage() {
           name: "Peppy Paneer Pizza",
           price: 159,
           originalPrice: 229,
-<<<<<<< HEAD
-          servingSize: "12 inch",
-          quantity: "1 Pizza (8 Slices)",
-=======
->>>>>>> 1c99cdc (Initial commit)
           description: "Spicy paneer chunks with tangy tomato sauce",
           items: ["12\" Pizza Base", "Tomato Sauce", "Paneer Cubes", "Green Chilies", "Onions", "Extra Cheese"],
           popular: true,
@@ -236,11 +165,6 @@ export default function MenuPage() {
           name: "Chicken Tikka Pizza",
           price: 179,
           originalPrice: 249,
-<<<<<<< HEAD
-          servingSize: "12 inch",
-          quantity: "1 Pizza (8 Slices)",
-=======
->>>>>>> 1c99cdc (Initial commit)
           description: "Tandoori chicken tikka with creamy sauce",
           items: ["12\" Pizza Base", "Tomato Sauce", "Chicken Tikka", "Creamy Sauce", "Onions", "Extra Cheese"],
           popular: true,
@@ -251,11 +175,6 @@ export default function MenuPage() {
           name: "Deluxe Non Veg Pizza",
           price: 199,
           originalPrice: 279,
-<<<<<<< HEAD
-          servingSize: "12 inch",
-          quantity: "1 Pizza (8 Slices)",
-=======
->>>>>>> 1c99cdc (Initial commit)
           description: "Loaded with chicken, pepperoni, and sausage",
           items: ["12\" Pizza Base", "Tomato Sauce", "Chicken", "Pepperoni", "Sausage", "Extra Cheese", "Bell Peppers"],
           popular: true,
@@ -271,11 +190,6 @@ export default function MenuPage() {
           name: "Veg Biryani",
           price: 139,
           originalPrice: 199,
-<<<<<<< HEAD
-          servingSize: "500g",
-          quantity: "1 Plate",
-=======
->>>>>>> 1c99cdc (Initial commit)
           description: "Fragrant basmati rice with mixed vegetables and aromatic spices",
           items: ["Basmati Rice", "Mixed Vegetables", "Biryani Masala", "Garam Masala", "Fried Onions", "Fresh Coriander", "Raita"],
           popular: true,
@@ -286,11 +200,6 @@ export default function MenuPage() {
           name: "Hyderabadi Dum Biryani",
           price: 169,
           originalPrice: 239,
-<<<<<<< HEAD
-          servingSize: "500g",
-          quantity: "1 Plate",
-=======
->>>>>>> 1c99cdc (Initial commit)
           description: "Authentic Hyderabadi style with dum-cooked perfection",
           items: ["Basmati Rice", "Marinated Chicken/Veg", "Biryani Masala", "Kewra Water", "Saffron", "Fried Onions", "Dum"],
           popular: true,
@@ -301,11 +210,6 @@ export default function MenuPage() {
           name: "Chicken Dum Biryani",
           price: 189,
           originalPrice: 259,
-<<<<<<< HEAD
-          servingSize: "500g",
-          quantity: "1 Plate",
-=======
->>>>>>> 1c99cdc (Initial commit)
           description: "Tender chicken pieces cooked in aromatic dum style",
           items: ["Basmati Rice", "Chicken Pieces", "Biryani Masala", "Yogurt", "Ginger-Garlic Paste", "Saffron", "Dum"],
           popular: true,
@@ -316,11 +220,6 @@ export default function MenuPage() {
           name: "Mutton Biryani",
           price: 219,
           originalPrice: 299,
-<<<<<<< HEAD
-          servingSize: "500g",
-          quantity: "1 Plate",
-=======
->>>>>>> 1c99cdc (Initial commit)
           description: "Premium mutton pieces with rich, spicy flavors",
           items: ["Basmati Rice", "Tender Mutton", "Biryani Masala", "Red Chili Powder", "Garam Masala", "Mint", "Dum"],
           popular: true,
@@ -331,11 +230,6 @@ export default function MenuPage() {
           name: "Egg Biryani",
           price: 149,
           originalPrice: 209,
-<<<<<<< HEAD
-          servingSize: "500g",
-          quantity: "1 Plate",
-=======
->>>>>>> 1c99cdc (Initial commit)
           description: "Hard-boiled eggs with aromatic rice and spices",
           items: ["Basmati Rice", "Hard-Boiled Eggs", "Biryani Masala", "Turmeric", "Fried Onions", "Coriander", "Raita"],
           popular: false,
@@ -415,19 +309,6 @@ export default function MenuPage() {
                             )}
                           </div>
                           <CardDescription className="text-lg">{meal.description}</CardDescription>
-<<<<<<< HEAD
-                          <div className="flex items-center gap-4 mt-2 text-sm text-gray-600">
-                            <div className="flex items-center gap-1">
-                              <span className="font-medium">Serving:</span>
-                              <span>{meal.servingSize}</span>
-                            </div>
-                            <div className="flex items-center gap-1">
-                              <span className="font-medium">Quantity:</span>
-                              <span>{meal.quantity}</span>
-                            </div>
-                          </div>
-=======
->>>>>>> 1c99cdc (Initial commit)
                         </div>
                         <div className="text-right">
                           <div className="text-3xl font-bold text-orange-600">₹{meal.price}</div>
