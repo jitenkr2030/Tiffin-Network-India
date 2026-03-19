@@ -35,6 +35,8 @@ export default function BookTiffinPage() {
       id: "mini-rice",
       name: "Mini Rice Meal",
       price: 89,
+      servingSize: "1 Person",
+      quantity: "1 Meal",
       description: "Rice, Sookhi Sabji/Raita, Dal",
       type: "veg"
     },
@@ -42,6 +44,8 @@ export default function BookTiffinPage() {
       id: "mini-roti",
       name: "Mini Roti Meal",
       price: 89,
+      servingSize: "1 Person",
+      quantity: "1 Meal",
       description: "4 Roti, Paneer/Veg Gravy, Sookhi Sabji/Raita, Salad",
       type: "veg"
     },
@@ -49,6 +53,8 @@ export default function BookTiffinPage() {
       id: "regular-veg-rice",
       name: "Regular Veg Rice Meal",
       price: 99,
+      servingSize: "1 Person",
+      quantity: "1 Meal",
       description: "Steamed Rice/Jeera Rice, Dal, Paneer/Veg Gravy, Sookhi Sabji/Raita, Salad",
       type: "veg"
     },
@@ -56,6 +62,8 @@ export default function BookTiffinPage() {
       id: "regular-nonveg-rice",
       name: "Regular Non Veg Rice Meal",
       price: 109,
+      servingSize: "1 Person",
+      quantity: "1 Meal",
       description: "Steamed Rice/Jeera Rice, Dal, Egg/Chicken/Veg Gravy, Sookhi Sabji/Raita, Salad",
       type: "non-veg"
     },
@@ -63,6 +71,8 @@ export default function BookTiffinPage() {
       id: "regular-veg",
       name: "Regular Veg Meal",
       price: 99,
+      servingSize: "1 Person",
+      quantity: "1 Meal",
       description: "4 Roti, Rice, Dal, Paneer/Veg Gravy, Salad",
       type: "veg"
     },
@@ -70,6 +80,8 @@ export default function BookTiffinPage() {
       id: "regular-nonveg",
       name: "Regular Non Veg Meal",
       price: 109,
+      servingSize: "1 Person",
+      quantity: "1 Meal",
       description: "4 Roti, Rice, Dal, Egg/Chicken/Veg Gravy, Salad",
       type: "non-veg"
     },
@@ -77,6 +89,8 @@ export default function BookTiffinPage() {
       id: "regular-veg-roti",
       name: "Regular Veg Roti Meal",
       price: 104,
+      servingSize: "1 Person",
+      quantity: "1 Meal",
       description: "4 Roti, Dal, Paneer/Veg Gravy, Sookhi Sabji/Raita, Salad",
       type: "veg"
     },
@@ -84,6 +98,8 @@ export default function BookTiffinPage() {
       id: "regular-nonveg-roti",
       name: "Regular Non Veg Roti Meal",
       price: 114,
+      servingSize: "1 Person",
+      quantity: "1 Meal",
       description: "4 Roti, Dal, Egg/Chicken/Veg Gravy, Sookhi Sabji/Raita, Salad",
       type: "non-veg"
     },
@@ -91,6 +107,8 @@ export default function BookTiffinPage() {
       id: "premium-veg",
       name: "Premium Veg Meal",
       price: 124,
+      servingSize: "1 Person",
+      quantity: "1 Meal",
       description: "4 Roti, Paneer/Veg Gravy, Sookhi Sabji/Raita, Salad, Steamed Rice/Jeera Rice, Dal, Raita/Sweets",
       type: "veg"
     },
@@ -98,6 +116,8 @@ export default function BookTiffinPage() {
       id: "premium-nonveg",
       name: "Premium Non Veg Meal",
       price: 129,
+      servingSize: "1 Person",
+      quantity: "1 Meal",
       description: "4 Roti, Egg/Chicken/Veg Gravy, Sookhi Sabji/Raita, Salad, Steamed Rice/Jeera Rice, Dal, Raita/Sweets",
       type: "non-veg"
     },
@@ -105,6 +125,8 @@ export default function BookTiffinPage() {
       id: "margherita-pizza",
       name: "Margherita Pizza",
       price: 129,
+      servingSize: "12 inch",
+      quantity: "1 Pizza (8 Slices)",
       description: "Classic cheese pizza with tomato sauce and fresh basil",
       type: "veg"
     },
@@ -112,6 +134,8 @@ export default function BookTiffinPage() {
       id: "veggie-pizza",
       name: "Veggie Supreme Pizza",
       price: 149,
+      servingSize: "12 inch",
+      quantity: "1 Pizza (8 Slices)",
       description: "Loaded with fresh vegetables and extra cheese",
       type: "veg"
     },
@@ -119,6 +143,8 @@ export default function BookTiffinPage() {
       id: "peppy-paneer-pizza",
       name: "Peppy Paneer Pizza",
       price: 159,
+      servingSize: "12 inch",
+      quantity: "1 Pizza (8 Slices)",
       description: "Spicy paneer chunks with tangy tomato sauce",
       type: "veg"
     },
@@ -126,6 +152,8 @@ export default function BookTiffinPage() {
       id: "chicken-tikka-pizza",
       name: "Chicken Tikka Pizza",
       price: 179,
+      servingSize: "12 inch",
+      quantity: "1 Pizza (8 Slices)",
       description: "Tandoori chicken tikka with creamy sauce",
       type: "non-veg"
     },
@@ -133,6 +161,8 @@ export default function BookTiffinPage() {
       id: "deluxe-nonveg-pizza",
       name: "Deluxe Non Veg Pizza",
       price: 199,
+      servingSize: "12 inch",
+      quantity: "1 Pizza (8 Slices)",
       description: "Loaded with chicken, pepperoni, and sausage",
       type: "non-veg"
     },
@@ -140,6 +170,8 @@ export default function BookTiffinPage() {
       id: "veg-biryani",
       name: "Veg Biryani",
       price: 139,
+      servingSize: "500g",
+      quantity: "1 Plate",
       description: "Fragrant basmati rice with mixed vegetables and aromatic spices",
       type: "veg"
     },
@@ -147,6 +179,8 @@ export default function BookTiffinPage() {
       id: "hyderabadi-biryani",
       name: "Hyderabadi Dum Biryani",
       price: 169,
+      servingSize: "500g",
+      quantity: "1 Plate",
       description: "Authentic Hyderabadi style with dum-cooked perfection",
       type: "veg"
     },
@@ -154,6 +188,8 @@ export default function BookTiffinPage() {
       id: "chicken-dum-biryani",
       name: "Chicken Dum Biryani",
       price: 189,
+      servingSize: "500g",
+      quantity: "1 Plate",
       description: "Tender chicken pieces cooked in aromatic dum style",
       type: "non-veg"
     },
@@ -161,6 +197,8 @@ export default function BookTiffinPage() {
       id: "mutton-biryani",
       name: "Mutton Biryani",
       price: 219,
+      servingSize: "500g",
+      quantity: "1 Plate",
       description: "Premium mutton pieces with rich, spicy flavors",
       type: "non-veg"
     },
@@ -168,6 +206,8 @@ export default function BookTiffinPage() {
       id: "egg-biryani",
       name: "Egg Biryani",
       price: 149,
+      servingSize: "500g",
+      quantity: "1 Plate",
       description: "Hard-boiled eggs with aromatic rice and spices",
       type: "non-veg"
     }
@@ -304,6 +344,16 @@ export default function BookTiffinPage() {
                         <div>
                           <h3 className="font-semibold text-lg">{meal.name}</h3>
                           <p className="text-sm text-gray-600">{meal.description}</p>
+                          <div className="flex items-center gap-4 mt-2 text-xs text-gray-500">
+                            <div className="flex items-center gap-1">
+                              <span className="font-medium">Serving:</span>
+                              <span>{meal.servingSize}</span>
+                            </div>
+                            <div className="flex items-center gap-1">
+                              <span className="font-medium">Quantity:</span>
+                              <span>{meal.quantity}</span>
+                            </div>
+                          </div>
                         </div>
                         <div className="text-right">
                           <div className="text-xl font-bold text-orange-600">₹{meal.price}</div>

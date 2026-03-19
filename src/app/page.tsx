@@ -156,6 +156,18 @@ export default function Home() {
                 <CardDescription className="text-2xl font-bold text-green-600">₹89</CardDescription>
               </CardHeader>
               <CardContent>
+                <div className="mb-4">
+                  <div className="flex items-center gap-4 text-sm text-gray-600">
+                    <div className="flex items-center gap-1">
+                      <span className="font-medium">Serving:</span>
+                      <span>1 Person</span>
+                    </div>
+                    <div className="flex items-center gap-1">
+                      <span className="font-medium">Quantity:</span>
+                      <span>1 Meal</span>
+                    </div>
+                  </div>
+                </div>
                 <ul className="space-y-2 text-gray-600">
                   <li className="flex items-center gap-2">
                     <CheckCircle className="w-4 h-4 text-green-500" />
@@ -191,6 +203,18 @@ export default function Home() {
                 <CardDescription className="text-2xl font-bold text-orange-600">₹99</CardDescription>
               </CardHeader>
               <CardContent>
+                <div className="mb-4">
+                  <div className="flex items-center gap-4 text-sm text-gray-600">
+                    <div className="flex items-center gap-1">
+                      <span className="font-medium">Serving:</span>
+                      <span>1 Person</span>
+                    </div>
+                    <div className="flex items-center gap-1">
+                      <span className="font-medium">Quantity:</span>
+                      <span>1 Meal</span>
+                    </div>
+                  </div>
+                </div>
                 <ul className="space-y-2 text-gray-600">
                   <li className="flex items-center gap-2">
                     <CheckCircle className="w-4 h-4 text-orange-500" />
@@ -207,10 +231,6 @@ export default function Home() {
                   <li className="flex items-center gap-2">
                     <CheckCircle className="w-4 h-4 text-orange-500" />
                     Paneer/Veg Gravy
-                  </li>
-                  <li className="flex items-center gap-2">
-                    <CheckCircle className="w-4 h-4 text-orange-500" />
-                    Salad
                   </li>
                 </ul>
                 <Link href="/book">
@@ -230,6 +250,18 @@ export default function Home() {
                 <CardDescription className="text-2xl font-bold text-purple-600">₹124</CardDescription>
               </CardHeader>
               <CardContent>
+                <div className="mb-4">
+                  <div className="flex items-center gap-4 text-sm text-gray-600">
+                    <div className="flex items-center gap-1">
+                      <span className="font-medium">Serving:</span>
+                      <span>1 Person</span>
+                    </div>
+                    <div className="flex items-center gap-1">
+                      <span className="font-medium">Quantity:</span>
+                      <span>1 Meal</span>
+                    </div>
+                  </div>
+                </div>
                 <ul className="space-y-2 text-gray-600">
                   <li className="flex items-center gap-2">
                     <CheckCircle className="w-4 h-4 text-purple-500" />
@@ -246,22 +278,6 @@ export default function Home() {
                   <li className="flex items-center gap-2">
                     <CheckCircle className="w-4 h-4 text-purple-500" />
                     Raita
-                  </li>
-                  <li className="flex items-center gap-2">
-                    <CheckCircle className="w-4 h-4 text-purple-500" />
-                    Salad
-                  </li>
-                  <li className="flex items-center gap-2">
-                    <CheckCircle className="w-4 h-4 text-purple-500" />
-                    Steamed Rice
-                  </li>
-                  <li className="flex items-center gap-2">
-                    <CheckCircle className="w-4 h-4 text-purple-500" />
-                    Dal
-                  </li>
-                  <li className="flex items-center gap-2">
-                    <CheckCircle className="w-4 h-4 text-purple-500" />
-                    Sweets
                   </li>
                 </ul>
                 <Link href="/book">
