@@ -146,7 +146,11 @@ export default function Home() {
               Choose from our variety of delicious meal plans
             </p>
           </div>
+<<<<<<< HEAD
           <div className="grid grid-cols-1 md:grid-cols-3 gap-8">
+=======
+          <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-8">
+>>>>>>> 3520938 (Initial commit)
             <Card className="hover:shadow-lg transition-shadow">
               <CardHeader>
                 <div className="bg-green-100 w-16 h-16 rounded-lg flex items-center justify-center mb-4">

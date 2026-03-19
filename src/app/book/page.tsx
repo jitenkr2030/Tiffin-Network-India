@@ -100,6 +100,79 @@ export default function BookTiffinPage() {
       price: 129,
       description: "4 Roti, Egg/Chicken/Veg Gravy, Sookhi Sabji/Raita, Salad, Steamed Rice/Jeera Rice, Dal, Raita/Sweets",
       type: "non-veg"
+<<<<<<< HEAD
+=======
+    },
+    {
+      id: "margherita-pizza",
+      name: "Margherita Pizza",
+      price: 129,
+      description: "Classic cheese pizza with tomato sauce and fresh basil",
+      type: "veg"
+    },
+    {
+      id: "veggie-pizza",
+      name: "Veggie Supreme Pizza",
+      price: 149,
+      description: "Loaded with fresh vegetables and extra cheese",
+      type: "veg"
+    },
+    {
+      id: "peppy-paneer-pizza",
+      name: "Peppy Paneer Pizza",
+      price: 159,
+      description: "Spicy paneer chunks with tangy tomato sauce",
+      type: "veg"
+    },
+    {
+      id: "chicken-tikka-pizza",
+      name: "Chicken Tikka Pizza",
+      price: 179,
+      description: "Tandoori chicken tikka with creamy sauce",
+      type: "non-veg"
+    },
+    {
+      id: "deluxe-nonveg-pizza",
+      name: "Deluxe Non Veg Pizza",
+      price: 199,
+      description: "Loaded with chicken, pepperoni, and sausage",
+      type: "non-veg"
+    },
+    {
+      id: "veg-biryani",
+      name: "Veg Biryani",
+      price: 139,
+      description: "Fragrant basmati rice with mixed vegetables and aromatic spices",
+      type: "veg"
+    },
+    {
+      id: "hyderabadi-biryani",
+      name: "Hyderabadi Dum Biryani",
+      price: 169,
+      description: "Authentic Hyderabadi style with dum-cooked perfection",
+      type: "veg"
+    },
+    {
+      id: "chicken-dum-biryani",
+      name: "Chicken Dum Biryani",
+      price: 189,
+      description: "Tender chicken pieces cooked in aromatic dum style",
+      type: "non-veg"
+    },
+    {
+      id: "mutton-biryani",
+      name: "Mutton Biryani",
+      price: 219,
+      description: "Premium mutton pieces with rich, spicy flavors",
+      type: "non-veg"
+    },
+    {
+      id: "egg-biryani",
+      name: "Egg Biryani",
+      price: 149,
+      description: "Hard-boiled eggs with aromatic rice and spices",
+      type: "non-veg"
+>>>>>>> 3520938 (Initial commit)
     }
   ];
 

@@ -2,7 +2,11 @@ import { Button } from "@/components/ui/button";
 import { Card, CardContent, CardDescription, CardHeader, CardTitle } from "@/components/ui/card";
 import { Badge } from "@/components/ui/badge";
 import { Tabs, TabsContent, TabsList, TabsTrigger } from "@/components/ui/tabs";
+<<<<<<< HEAD
 import { CheckCircle, Star, Clock, Users, TrendingUp } from "lucide-react";
+=======
+import { CheckCircle, Star, Clock, Users, TrendingUp, Pizza } from "lucide-react";
+>>>>>>> 3520938 (Initial commit)
 import Link from "next/link";
 
 export default function MenuPage() {
@@ -121,6 +125,119 @@ export default function MenuPage() {
           type: "non-veg"
         }
       ]
+<<<<<<< HEAD
+=======
+    },
+    {
+      category: "YaY Pizza",
+      items: [
+        {
+          name: "Margherita Pizza",
+          price: 129,
+          originalPrice: 189,
+          description: "Classic cheese pizza with tomato sauce and fresh basil",
+          items: ["12\" Pizza Base", "Tomato Sauce", "Fresh Mozzarella", "Fresh Basil", "Olive Oil"],
+          popular: true,
+          rating: 4.8,
+          type: "veg"
+        },
+        {
+          name: "Veggie Supreme Pizza",
+          price: 149,
+          originalPrice: 209,
+          description: "Loaded with fresh vegetables and extra cheese",
+          items: ["12\" Pizza Base", "Tomato Sauce", "Extra Cheese", "Bell Peppers", "Onions", "Mushrooms", "Olives", "Corn"],
+          popular: true,
+          rating: 4.7,
+          type: "veg"
+        },
+        {
+          name: "Peppy Paneer Pizza",
+          price: 159,
+          originalPrice: 229,
+          description: "Spicy paneer chunks with tangy tomato sauce",
+          items: ["12\" Pizza Base", "Tomato Sauce", "Paneer Cubes", "Green Chilies", "Onions", "Extra Cheese"],
+          popular: true,
+          rating: 4.9,
+          type: "veg"
+        },
+        {
+          name: "Chicken Tikka Pizza",
+          price: 179,
+          originalPrice: 249,
+          description: "Tandoori chicken tikka with creamy sauce",
+          items: ["12\" Pizza Base", "Tomato Sauce", "Chicken Tikka", "Creamy Sauce", "Onions", "Extra Cheese"],
+          popular: true,
+          rating: 4.8,
+          type: "non-veg"
+        },
+        {
+          name: "Deluxe Non Veg Pizza",
+          price: 199,
+          originalPrice: 279,
+          description: "Loaded with chicken, pepperoni, and sausage",
+          items: ["12\" Pizza Base", "Tomato Sauce", "Chicken", "Pepperoni", "Sausage", "Extra Cheese", "Bell Peppers"],
+          popular: true,
+          rating: 4.9,
+          type: "non-veg"
+        }
+      ]
+    },
+    {
+      category: "YaY Biryani",
+      items: [
+        {
+          name: "Veg Biryani",
+          price: 139,
+          originalPrice: 199,
+          description: "Fragrant basmati rice with mixed vegetables and aromatic spices",
+          items: ["Basmati Rice", "Mixed Vegetables", "Biryani Masala", "Garam Masala", "Fried Onions", "Fresh Coriander", "Raita"],
+          popular: true,
+          rating: 4.7,
+          type: "veg"
+        },
+        {
+          name: "Hyderabadi Dum Biryani",
+          price: 169,
+          originalPrice: 239,
+          description: "Authentic Hyderabadi style with dum-cooked perfection",
+          items: ["Basmati Rice", "Marinated Chicken/Veg", "Biryani Masala", "Kewra Water", "Saffron", "Fried Onions", "Dum"],
+          popular: true,
+          rating: 4.9,
+          type: "veg"
+        },
+        {
+          name: "Chicken Dum Biryani",
+          price: 189,
+          originalPrice: 259,
+          description: "Tender chicken pieces cooked in aromatic dum style",
+          items: ["Basmati Rice", "Chicken Pieces", "Biryani Masala", "Yogurt", "Ginger-Garlic Paste", "Saffron", "Dum"],
+          popular: true,
+          rating: 4.8,
+          type: "non-veg"
+        },
+        {
+          name: "Mutton Biryani",
+          price: 219,
+          originalPrice: 299,
+          description: "Premium mutton pieces with rich, spicy flavors",
+          items: ["Basmati Rice", "Tender Mutton", "Biryani Masala", "Red Chili Powder", "Garam Masala", "Mint", "Dum"],
+          popular: true,
+          rating: 4.9,
+          type: "non-veg"
+        },
+        {
+          name: "Egg Biryani",
+          price: 149,
+          originalPrice: 209,
+          description: "Hard-boiled eggs with aromatic rice and spices",
+          items: ["Basmati Rice", "Hard-Boiled Eggs", "Biryani Masala", "Turmeric", "Fried Onions", "Coriander", "Raita"],
+          popular: false,
+          rating: 4.6,
+          type: "non-veg"
+        }
+      ]
+>>>>>>> 3520938 (Initial commit)
     }
   ];
 
@@ -166,10 +283,19 @@ export default function MenuPage() {
       <section className="py-16">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
           <Tabs defaultValue="mini" className="w-full">
+<<<<<<< HEAD
             <TabsList className="grid w-full grid-cols-2 mb-12">
               <TabsTrigger value="mini" className="text-sm md:text-lg">Mini Meals</TabsTrigger>
               <TabsTrigger value="regular" className="text-sm md:text-lg">Regular Meals</TabsTrigger>
               <TabsTrigger value="premium" className="text-sm md:text-lg">Premium Meals</TabsTrigger>
+=======
+            <TabsList className="grid w-full grid-cols-2 md:grid-cols-3 mb-12">
+              <TabsTrigger value="mini" className="text-sm md:text-lg">Mini Meals</TabsTrigger>
+              <TabsTrigger value="regular" className="text-sm md:text-lg">Regular Meals</TabsTrigger>
+              <TabsTrigger value="premium" className="text-sm md:text-lg">Premium Meals</TabsTrigger>
+              <TabsTrigger value="pizza" className="text-sm md:text-lg">YaY Pizza</TabsTrigger>
+              <TabsTrigger value="biryani" className="text-sm md:text-lg">YaY Biryani</TabsTrigger>
+>>>>>>> 3520938 (Initial commit)
               <TabsTrigger value="bulk" className="text-sm md:text-lg">Bulk Orders</TabsTrigger>
             </TabsList>
 
@@ -367,7 +493,143 @@ export default function MenuPage() {
               </div>
             </TabsContent>
 
+<<<<<<< HEAD
             {/* Bulk Orders */}
+=======
+            {/* YaY Pizza */}
+            <TabsContent value="pizza" className="space-y-8">
+              <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
+                {mealPlans[3].items.map((pizza) => (
+                  <Card key={pizza.name} className="hover:shadow-lg transition-shadow border-red-200">
+                    <CardHeader>
+                      <div className="flex justify-between items-start">
+                        <div>
+                          <div className="flex items-center gap-2 mb-2">
+                            <CardTitle className="text-xl">{pizza.name}</CardTitle>
+                            {pizza.popular && (
+                              <Badge className="bg-red-100 text-red-800 hover:bg-red-200">
+                                <TrendingUp className="w-3 h-3 mr-1" />
+                                Popular
+                              </Badge>
+                            )}
+                          </div>
+                          <CardDescription className="text-sm">{pizza.description}</CardDescription>
+                        </div>
+                        <div className="text-right">
+                          <div className="text-2xl font-bold text-red-600">₹{pizza.price}</div>
+                          {pizza.originalPrice && (
+                            <div className="text-sm text-gray-500 line-through">
+                              ₹{pizza.originalPrice}
+                            </div>
+                          )}
+                        </div>
+                      </div>
+                      <div className="flex items-center gap-4 text-sm text-gray-600">
+                        <div className="flex items-center gap-1">
+                          <Star className="w-4 h-4 text-yellow-500 fill-current" />
+                          <span>{pizza.rating}</span>
+                        </div>
+                        <div className="flex items-center gap-1">
+                          <Badge variant={pizza.type === 'veg' ? 'default' : 'destructive'} className="text-xs">
+                            {pizza.type === 'veg' ? '🟢 Veg' : '🔴 Non-Veg'}
+                          </Badge>
+                        </div>
+                      </div>
+                    </CardHeader>
+                    <CardContent>
+                      <div className="space-y-2 mb-6">
+                        {pizza.items.map((item, index) => (
+                          <div key={index} className="flex items-center gap-2">
+                            <CheckCircle className="w-3 h-3 text-red-500 flex-shrink-0" />
+                            <span className="text-sm text-gray-700">{item}</span>
+                          </div>
+                        ))}
+                      </div>
+                      <div className="flex gap-3">
+                        <Link href="/book" className="flex-1">
+                          <Button className="w-full bg-red-500 hover:bg-red-600">
+                            Order Now
+                          </Button>
+                        </Link>
+                        <Link href="/book">
+                          <Button variant="outline" className="border-red-500 text-red-500 hover:bg-red-50">
+                            Customize
+                          </Button>
+                        </Link>
+                      </div>
+                    </CardContent>
+                  </Card>
+                ))}
+              </div>
+            </TabsContent>
+
+            {/* YaY Biryani */}
+            <TabsContent value="biryani" className="space-y-8">
+              <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
+                {mealPlans[4].items.map((biryani) => (
+                  <Card key={biryani.name} className="hover:shadow-lg transition-shadow border-orange-300">
+                    <CardHeader>
+                      <div className="flex justify-between items-start">
+                        <div>
+                          <div className="flex items-center gap-2 mb-2">
+                            <CardTitle className="text-xl">{biryani.name}</CardTitle>
+                            {biryani.popular && (
+                              <Badge className="bg-orange-100 text-orange-800 hover:bg-orange-200">
+                                <TrendingUp className="w-3 h-3 mr-1" />
+                                Popular
+                              </Badge>
+                            )}
+                          </div>
+                          <CardDescription className="text-sm">{biryani.description}</CardDescription>
+                        </div>
+                        <div className="text-right">
+                          <div className="text-2xl font-bold text-orange-600">₹{biryani.price}</div>
+                          {biryani.originalPrice && (
+                            <div className="text-sm text-gray-500 line-through">
+                              ₹{biryani.originalPrice}
+                            </div>
+                          )}
+                        </div>
+                      </div>
+                      <div className="flex items-center gap-4 text-sm text-gray-600">
+                        <div className="flex items-center gap-1">
+                          <Star className="w-4 h-4 text-yellow-500 fill-current" />
+                          <span>{biryani.rating}</span>
+                        </div>
+                        <div className="flex items-center gap-1">
+                          <Badge variant={biryani.type === 'veg' ? 'default' : 'destructive'} className="text-xs">
+                            {biryani.type === 'veg' ? '🟢 Veg' : '🔴 Non-Veg'}
+                          </Badge>
+                        </div>
+                      </div>
+                    </CardHeader>
+                    <CardContent>
+                      <div className="space-y-2 mb-6">
+                        {biryani.items.map((item, index) => (
+                          <div key={index} className="flex items-center gap-2">
+                            <CheckCircle className="w-3 h-3 text-orange-500 flex-shrink-0" />
+                            <span className="text-sm text-gray-700">{item}</span>
+                          </div>
+                        ))}
+                      </div>
+                      <div className="flex gap-3">
+                        <Link href="/book" className="flex-1">
+                          <Button className="w-full bg-orange-500 hover:bg-orange-600">
+                            Order Now
+                          </Button>
+                        </Link>
+                        <Link href="/book">
+                          <Button variant="outline" className="border-orange-500 text-orange-500 hover:bg-orange-50">
+                            Customize
+                          </Button>
+                        </Link>
+                      </div>
+                    </CardContent>
+                  </Card>
+                ))}
+              </div>
+            </TabsContent>
+>>>>>>> 3520938 (Initial commit)
             <TabsContent value="bulk" className="space-y-8">
               <div className="max-w-2xl mx-auto">
                 <Card className="text-center">
