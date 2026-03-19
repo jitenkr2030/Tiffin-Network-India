@@ -2,7 +2,7 @@ import Link from "next/link";
 import { Button } from "@/components/ui/button";
 import { Card, CardContent, CardDescription, CardHeader, CardTitle } from "@/components/ui/card";
 import { Badge } from "@/components/ui/badge";
-import { Clock, MapPin, ChefHat, Users, Star, Phone, CheckCircle, Pizza } from "lucide-react";
+import { Clock, MapPin, ChefHat, Users, Star, Phone, CheckCircle } from "lucide-react";
 
 export default function Home() {
   return (
@@ -17,11 +17,11 @@ export default function Home() {
               </Badge>
               <h1 className="text-4xl md:text-6xl font-bold text-gray-900 mb-6">
                 Delicious Meal Plans
-                <span className="text-orange-500"> from YAY</span>
+                <span className="text-orange-500"> Delivered Daily</span>
               </h1>
               <p className="text-xl text-gray-600 mb-8">
-                Fresh, homemade Tiffins, Pizzas, and Biryani delivered to your doorstep in Delhi. 
-                Choose from our variety of delicious meal plans across all YAY services.
+                Fresh, homemade meals delivered to your doorstep in Delhi. 
+                Choose from our variety of delicious meal plans.
               </p>
               <div className="flex flex-col sm:flex-row gap-4">
                 <Link href="/book">
@@ -146,11 +146,7 @@ export default function Home() {
               Choose from our variety of delicious meal plans
             </p>
           </div>
-<<<<<<< HEAD
-          <div className="grid grid-cols-1 md:grid-cols-3 gap-8">
-=======
           <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-8">
->>>>>>> 3520938 (Initial commit)
             <Card className="hover:shadow-lg transition-shadow">
               <CardHeader>
                 <div className="bg-green-100 w-16 h-16 rounded-lg flex items-center justify-center mb-4">
@@ -251,44 +247,25 @@ export default function Home() {
                     <CheckCircle className="w-4 h-4 text-purple-500" />
                     Raita
                   </li>
+                  <li className="flex items-center gap-2">
+                    <CheckCircle className="w-4 h-4 text-purple-500" />
+                    Salad
+                  </li>
+                  <li className="flex items-center gap-2">
+                    <CheckCircle className="w-4 h-4 text-purple-500" />
+                    Steamed Rice
+                  </li>
+                  <li className="flex items-center gap-2">
+                    <CheckCircle className="w-4 h-4 text-purple-500" />
+                    Dal
+                  </li>
+                  <li className="flex items-center gap-2">
+                    <CheckCircle className="w-4 h-4 text-purple-500" />
+                    Sweets
+                  </li>
                 </ul>
                 <Link href="/book">
                   <Button className="w-full mt-6 bg-purple-500 hover:bg-purple-600">
-                    Order Now
-                  </Button>
-                </Link>
-              </CardContent>
-            </Card>
-
-            <Card className="hover:shadow-lg transition-shadow border-red-200">
-              <CardHeader>
-                <div className="bg-red-100 w-16 h-16 rounded-lg flex items-center justify-center mb-4">
-                  <Pizza className="w-8 h-8 text-red-600" />
-                </div>
-                <CardTitle>Margherita Pizza</CardTitle>
-                <CardDescription className="text-2xl font-bold text-red-600">₹129</CardDescription>
-              </CardHeader>
-              <CardContent>
-                <ul className="space-y-2 text-gray-600">
-                  <li className="flex items-center gap-2">
-                    <CheckCircle className="w-4 h-4 text-red-500" />
-                    12" Pizza Base
-                  </li>
-                  <li className="flex items-center gap-2">
-                    <CheckCircle className="w-4 h-4 text-red-500" />
-                    Fresh Mozzarella
-                  </li>
-                  <li className="flex items-center gap-2">
-                    <CheckCircle className="w-4 h-4 text-red-500" />
-                    Tomato Sauce
-                  </li>
-                  <li className="flex items-center gap-2">
-                    <CheckCircle className="w-4 h-4 text-red-500" />
-                    Fresh Basil
-                  </li>
-                </ul>
-                <Link href="/book">
-                  <Button className="w-full mt-6 bg-red-500 hover:bg-red-600">
                     Order Now
                   </Button>
                 </Link>

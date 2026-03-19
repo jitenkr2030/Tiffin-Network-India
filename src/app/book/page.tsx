@@ -100,8 +100,6 @@ export default function BookTiffinPage() {
       price: 129,
       description: "4 Roti, Egg/Chicken/Veg Gravy, Sookhi Sabji/Raita, Salad, Steamed Rice/Jeera Rice, Dal, Raita/Sweets",
       type: "non-veg"
-<<<<<<< HEAD
-=======
     },
     {
       id: "margherita-pizza",
@@ -172,7 +170,6 @@ export default function BookTiffinPage() {
       price: 149,
       description: "Hard-boiled eggs with aromatic rice and spices",
       type: "non-veg"
->>>>>>> 3520938 (Initial commit)
     }
   ];
 

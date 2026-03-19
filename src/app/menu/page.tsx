@@ -2,11 +2,7 @@ import { Button } from "@/components/ui/button";
 import { Card, CardContent, CardDescription, CardHeader, CardTitle } from "@/components/ui/card";
 import { Badge } from "@/components/ui/badge";
 import { Tabs, TabsContent, TabsList, TabsTrigger } from "@/components/ui/tabs";
-<<<<<<< HEAD
-import { CheckCircle, Star, Clock, Users, TrendingUp } from "lucide-react";
-=======
 import { CheckCircle, Star, Clock, Users, TrendingUp, Pizza } from "lucide-react";
->>>>>>> 3520938 (Initial commit)
 import Link from "next/link";
 
 export default function MenuPage() {
@@ -125,8 +121,6 @@ export default function MenuPage() {
           type: "non-veg"
         }
       ]
-<<<<<<< HEAD
-=======
     },
     {
       category: "YaY Pizza",
@@ -237,7 +231,6 @@ export default function MenuPage() {
           type: "non-veg"
         }
       ]
->>>>>>> 3520938 (Initial commit)
     }
   ];
 
@@ -283,19 +276,12 @@ export default function MenuPage() {
       <section className="py-16">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
           <Tabs defaultValue="mini" className="w-full">
-<<<<<<< HEAD
-            <TabsList className="grid w-full grid-cols-2 mb-12">
-              <TabsTrigger value="mini" className="text-sm md:text-lg">Mini Meals</TabsTrigger>
-              <TabsTrigger value="regular" className="text-sm md:text-lg">Regular Meals</TabsTrigger>
-              <TabsTrigger value="premium" className="text-sm md:text-lg">Premium Meals</TabsTrigger>
-=======
             <TabsList className="grid w-full grid-cols-2 md:grid-cols-3 mb-12">
               <TabsTrigger value="mini" className="text-sm md:text-lg">Mini Meals</TabsTrigger>
               <TabsTrigger value="regular" className="text-sm md:text-lg">Regular Meals</TabsTrigger>
               <TabsTrigger value="premium" className="text-sm md:text-lg">Premium Meals</TabsTrigger>
               <TabsTrigger value="pizza" className="text-sm md:text-lg">YaY Pizza</TabsTrigger>
               <TabsTrigger value="biryani" className="text-sm md:text-lg">YaY Biryani</TabsTrigger>
->>>>>>> 3520938 (Initial commit)
               <TabsTrigger value="bulk" className="text-sm md:text-lg">Bulk Orders</TabsTrigger>
             </TabsList>
 
@@ -493,9 +479,6 @@ export default function MenuPage() {
               </div>
             </TabsContent>
 
-<<<<<<< HEAD
-            {/* Bulk Orders */}
-=======
             {/* YaY Pizza */}
             <TabsContent value="pizza" className="space-y-8">
               <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
@@ -629,7 +612,6 @@ export default function MenuPage() {
                 ))}
               </div>
             </TabsContent>
->>>>>>> 3520938 (Initial commit)
             <TabsContent value="bulk" className="space-y-8">
               <div className="max-w-2xl mx-auto">
                 <Card className="text-center">
